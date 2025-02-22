@@ -80,6 +80,46 @@ gap: 8px;
     color: #d4bfc4; 
 }
 
+@media only screen and (min-width:768px) and (max-width:1280px)
+{
+  .footer-container {
+    min-width: 768px;
+    max-width:1280px ;
+    padding: 32px;
+    flex-direction:row;
+    gap:100px;
+    flex-wrap: wrap;
+  }
+  .footer-wrap{
+    flex-direction: row;
+    gap:212px;
+}
+.footer-logo-cont{
+    width:265px;
+    gap:24px;
+}
+.footer-nav-cont{
+    gap:64px;
+}
+.address-list{
+    gap:24px;
+}
+.address-link{
+font-size: 16px;
+line-height: 1.25;
+}
+.privacy-policy-cont{
+    width:704px;
+}
+.privacy-policy-list{
+    flex-direction: row;
+    gap:318px;
+}
+.privacy-policy-text{
+    font-size: 16px;
+    line-height: 1.25; 
+}}
+
     /*.footer-container {
         background: #7a3145;
         padding: 52px 100px;
