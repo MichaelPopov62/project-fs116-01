@@ -1,5 +1,86 @@
 /*FOOTER*/
-    .footer-container {
+.footer-container{
+    max-width:375px; 
+    background-color: #7a3145;
+    color:#fbfbfb;
+    padding: 40px 20px;
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 80px;
+}
+.footer-wrap{
+    display: flex;
+    flex-direction: column;
+    gap:40px;}
+.logo-icon{
+    fill:#fbfbfb;
+}
+.footer-logo-cont{
+    display:flex;
+    flex-direction: column;
+    width:335px;
+    gap:14px;
+}
+.footer-nav-cont{
+    display:flex;
+    flex-direction: column;
+    width:227px;
+    gap:40px;
+}
+.footer-nav-wrap{
+    width:227px;
+}
+.footer-nav-list{
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+}
+.footer-nav-link{
+    font-weight: 600;
+font-size: 32px;
+line-height: 1;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+}
+.contacts{
+    width:215px;
+}
+.address-list{
+    display: flex;
+flex-direction: column;
+gap: 14px;
+}
+.address-link{
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.4;
+}
+.privacy-policy-cont{
+    width:335px;
+    display: flex;
+flex-direction: column;
+gap: 16px;
+}
+.privacy-policy-list{
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+}
+.privacy-policy-item{
+display: flex;
+flex-direction: row;
+gap: 8px;
+}
+.privacy-policy-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #d4bfc4; 
+}
+
+    /*.footer-container {
         background: #7a3145;
         padding: 52px 100px;
         display: flex;
@@ -73,4 +154,4 @@
         line-height: 1.25;
         font-style: normal;
         color: #d4bfc4;
-    }
+    }*/
