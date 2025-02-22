@@ -4,13 +4,12 @@
   max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
-  background-color: blue;
+  
 }
 /* Styles for Mobile devices-flexible */
 @media only screen and (min-width:320px) and (max-width:375px) 
 {
-   body {background-color: rgb(43, 198, 226);
-    }
+ 
 }
 /* Styles for Mobile devices-adaptive */
 @media only screen and (min-width:375px) and (max-width:768px) 
@@ -20,8 +19,7 @@
     max-width:768px ;
     padding: 0 32px;
     margin: 0 auto;
-    background-color: brown;
-    }
+        }
 }
 
 /* Styles for Tablet devices */
@@ -32,7 +30,7 @@
     max-width:1280px ;
     padding: 0 32px;
     margin: 0 auto;
-    background-color: chartreuse;
+   
   }
 }
 /* Styles for Desktop devices */
@@ -41,6 +39,6 @@
     min-width: 1280px;
     padding: 0 100px;
     margin: 0 auto;
-    background-color: blueviolet;
+    
   }
 }
