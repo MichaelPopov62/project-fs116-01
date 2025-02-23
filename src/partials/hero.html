@@ -9,15 +9,37 @@
     </p>
   </div>
   <div>
-    <img
-      srcset="
-        /img/images/backet/backet-mobi@1x.jpg 1x,
-        /img/images/backet/backet-mobi@1x.jpg 2x
-      "
-      src="/img/images/backet/backet-mobi@1x.jpg"
-      width="375"
-      height="372"
-      alt="Basket with vegetables"
-    />
+    <picture>
+      <source
+        media="(min-width:1280px)"
+        srcset="
+          /img/images/backet/backet-des@1x.jpg 1x,
+          /img/images/backet/backet-des@1x.jpg 2x
+        "
+      />
+      <source
+        media="(min-width:768px)"
+        srcset="
+          /img/images/backet/backet-tabl@1x.jpg 1x,
+          /img/images/backet/backet-tabl@1x.jpg 2x
+        "
+      />
+      <source
+        media="(max-width:767px)"
+        srcset="
+          /img/images/backet/backet-mobi@1x.jpg 1x,
+          /img/images/backet/backet-mobi@1x.jpg 2x
+        "
+      />
+      <img
+        srcset="
+          /img/images/backet/backet-mobi@1x.jpg 1x,
+          /img/images/backet/backet-mobi@1x.jpg 2x
+        "
+        src="/img/images/backet/backet-des@1x.jpg"
+        width="768"
+        alt="Basket with vegetables"
+      />
+    </picture>
   </div>
 </section>

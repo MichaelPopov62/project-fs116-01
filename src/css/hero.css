@@ -1,10 +1,34 @@
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 100px;
+    }
+}
+
+/* MOB */
+
 .hero {
     padding-top: 100px;
     background-color: #576F35;
 }
 
 .hero-title {
-    display: flex;
     text-align: start;
     font-weight: 600;
     font-size: 52px;
@@ -17,10 +41,50 @@
 
 .hero-text {
     text-align: start;
-    max-width: 355px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.42857;
+    line-height: 1.43;
     color: #FBFBFB;
     padding-bottom: 40px;
+}
+
+@media screen and (max-width: 350px) {
+    .hero-title {
+        font-size: 42px;
+    }
+}
+
+/* TABLET */
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        padding-top: 120px;
+    }
+
+    .hero-title {
+        font-size: 76px;
+    }
+
+    .hero-text {
+        max-width: 603px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+/* DESKTOP */
+
+@media only screen and (min-width: 1280px) {
+    .hero {
+        display: flex;
+        padding-top: 232px;
+    }
+
+    .hero-title {
+        margin-bottom: 128px;
+    }
+
+    .hero-text {
+        padding-bottom: 52px;
+    }
 }
