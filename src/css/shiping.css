@@ -1,0 +1,33 @@
+.shiping {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.shiping-image img {
+  max-width: 100%;
+  height: auto;
+}
+.shiping-text {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.shiping-text .green {
+  color: #6b7f3e; /* Зелений */
+}
+
+.shiping-text .red {
+  color: #8a3c45; /* Червоний */
+}
