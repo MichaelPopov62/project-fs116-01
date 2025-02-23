@@ -7,15 +7,17 @@
   padding: 40px;
 }
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 20px;
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .shiping-text {
-  font-size: 28px;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: -1.5%;
   text-align: left;
 }
 
