@@ -6,7 +6,7 @@
 }
 
 /* Styles for Tablet devices */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
         padding: 0 32px;
@@ -14,7 +14,7 @@
 }
 
 /* Styles for Desktop devices */
-@media only screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .container {
         max-width: 1280px;
         padding: 0 100px;
@@ -29,6 +29,7 @@
 }
 
 .hero-title {
+    max-width: 335px;
     text-align: start;
     font-weight: 600;
     font-size: 52px;
@@ -40,6 +41,7 @@
 }
 
 .hero-text {
+    max-width: 335px;
     text-align: start;
     font-weight: 500;
     font-size: 14px;
@@ -56,12 +58,13 @@
 
 /* TABLET */
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .hero {
         padding-top: 120px;
     }
 
     .hero-title {
+        max-width: 704px;
         font-size: 76px;
     }
 
@@ -74,17 +77,25 @@
 
 /* DESKTOP */
 
-@media only screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
+    .container {
+        padding-left: 100px;
+        padding-right: 36px;
+    }
+
     .hero {
         display: flex;
-        padding-top: 232px;
+        padding-top: 0;
     }
 
     .hero-title {
+        max-width: 502px;
+        padding-top: 232px;
         margin-bottom: 128px;
     }
 
     .hero-text {
+        max-width: 472px;
         padding-bottom: 52px;
     }
 }
