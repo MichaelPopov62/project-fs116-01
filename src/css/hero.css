@@ -1,0 +1,26 @@
+.hero {
+    padding-top: 100px;
+    background-color: #576F35;
+}
+
+.hero-title {
+    display: flex;
+    text-align: start;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #FBFBFB;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    text-align: start;
+    max-width: 355px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #FBFBFB;
+    padding-bottom: 40px;
+}
