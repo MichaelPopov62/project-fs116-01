@@ -9,9 +9,10 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #576f35;
-  opacity: 0;
+  padding-bottom: 52px;
+  /* opacity: 0;
   visibility: hidden;
-  pointer-events: none;
+  pointer-events: none; */
 }
 .menu-close {
   display: flex;
@@ -30,6 +31,10 @@
   gap: 24px;
   align-items: center;
 }
+.menu-list li:first-child {
+  background-color: white;
+  color: #7a3145;
+}
 .mob-menu-item {
   border: 1px solid white;
   border-radius: 12px;
@@ -41,6 +46,7 @@
   display: flex;
   justify-content: center;
 }
+
 .menu-nav-mob {
   font-weight: 500;
   font-size: 14px;
@@ -62,12 +68,13 @@
   text-transform: uppercase;
   color: white;
   text-align: center;
-  margin-bottom: 52px;
+  line-height: 50%;
 }
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
   .mob-menu {
     width: 351px;
     left: 417px;
+    padding-bottom: 48px;
   }
   .icon-close {
     width: 40px;
@@ -83,8 +90,5 @@
   .menu-nav-mob {
     font-size: 16px;
     line-height: 125%;
-  }
-  .btn-shop {
-    margin-bottom: 48px;
   }
 }
