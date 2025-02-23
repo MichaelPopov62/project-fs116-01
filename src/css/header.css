@@ -13,6 +13,11 @@
   visibility: hidden;
   pointer-events: none;
 }
+.is-open{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
 .menu-close {
   display: flex;
   margin-left: auto;
