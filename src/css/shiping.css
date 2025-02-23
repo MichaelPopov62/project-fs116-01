@@ -2,9 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px;
 }
 .container {
   min-width: 320px;
@@ -12,13 +9,21 @@
   margin: 0 auto;
   padding: 0 20px;
 }
-
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
 .shiping-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60;
   font-weight: 600;
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 28px;
+  line-height: 28px;
   letter-spacing: -1.5%;
-  text-align: left;
+  text-align: center;
 }
 
 .shiping-text .green {
@@ -27,4 +32,24 @@
 
 .shiping-text .red {
   color: #8a3c45; /* Червоний */
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .shiping-text {
+    font-size: 40px;
+    line-height: 40px;
+
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
 }
