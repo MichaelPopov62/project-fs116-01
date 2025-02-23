@@ -73,6 +73,10 @@
         font-size: 16px;
         line-height: 1.25;
     }
+
+    img {
+        display: inline-block;
+    }
 }
 
 /* DESKTOP */
@@ -80,7 +84,7 @@
 @media screen and (min-width: 1280px) {
     .container {
         padding-left: 100px;
-        padding-right: 36px;
+        padding-right: 38px;
     }
 
     .hero {
