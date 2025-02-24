@@ -51,5 +51,16 @@
   .container {
     max-width: 1280px;
     padding: 0 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
+  }
+  .shiping-text {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    margin-left: 74px;
   }
 }
