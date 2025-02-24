@@ -24,3 +24,11 @@
     color: #FBFBFB;
     padding-bottom: 40px;
 }
+@media only screen and (max-width:350px){
+.hero-title {
+ font-size: 45px;
+  }
+  .hero-text {
+   font-size: 12px;
+  }
+}
