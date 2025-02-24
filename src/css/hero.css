@@ -71,6 +71,7 @@
 
     .hero {
         display: flex;
+        height: 796px;
         padding-top: 0;
     }
 
@@ -83,5 +84,10 @@
     .hero-text {
         max-width: 472px;
         padding-bottom: 52px;
+    }
+
+    img {
+        width: 640px;
+        height: 796px;
     }
 }
