@@ -38,7 +38,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* width: 100%; */
     width: 375px;
     min-height: 372px;
 }
@@ -132,12 +131,13 @@
         background-image: url("/img/images/backet/backet-des@1x.jpg");
         width: 50%;
         min-height: 796px;
+        background-size: contain;
     }
 
     @media only screen and (min-resolution: 2x),
     (-webkit-min-device-pixel-atio: 2x) {
         .hero-image {
-            background-image: url("/img/images/backet/backet-des@12.jpg");
+            background-image: url("/img/images/backet/backet-des@2x.jpg");
         }
     }
 
