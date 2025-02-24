@@ -3,6 +3,12 @@
 .hero {
     padding-top: 100px;
     background-color: #576F35;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
 }
 
 .hero-title {
@@ -27,6 +33,29 @@
     padding-bottom: 40px;
 }
 
+.hero-image {
+    background-image: url("/img/images/backet/backet-mobi@1x.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    width: 375px;
+    min-height: 372px;
+}
+
+@media only screen and (min-resolution: 2x),
+(-webkit-min-device-pixel-atio: 2x) {
+    .hero-image {
+        background-image: url("/img/images/backet/backet-mobi@2x.jpg");
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .hero-image {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width:350px) {
     .hero-title {
         font-size: 45px;
@@ -39,7 +68,7 @@
 
 /* TABLET */
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .hero {
         padding-top: 120px;
     }
@@ -55,23 +84,37 @@
         line-height: 1.25;
     }
 
-    img {
-        display: inline-block;
+    @media only screen and (min-width: 768px) {
+        .hero-image {
+            background-image: url("/img/images/backet/backet-tabl@1x.jpg");
+            width: 768px;
+            min-height: 536px;
+        }
+    }
+
+    @media only screen and (min-resolution: 2x),
+    (-webkit-min-device-pixel-atio: 2x) {
+        .hero-image {
+            background-image: url("/img/images/backet/backet-tabl@2x.jpg");
+        }
     }
 }
 
 /* DESKTOP */
 
-@media screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
     .container {
         padding-left: 100px;
         padding-right: 38px;
+        width: 50%;
     }
 
     .hero {
-        display: flex;
         height: 796px;
         padding-top: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
     }
 
     .hero-title {
@@ -85,8 +128,32 @@
         padding-bottom: 52px;
     }
 
-    img {
-        /* width: 640px; */
-        height: 796px;
+    .hero-image {
+        background-image: url("/img/images/backet/backet-des@1x.jpg");
+        width: 50%;
+        min-height: 796px;
     }
+
+    @media only screen and (min-resolution: 2x),
+    (-webkit-min-device-pixel-atio: 2x) {
+        .hero-image {
+            background-image: url("/img/images/backet/backet-des@12.jpg");
+        }
+    }
+
+    @media only screen and (min-width:1500px) {
+        .hero-title {
+            max-width: 100%;
+            font-size: 76px;
+            padding-top: 200px;
+            margin-bottom: 80px;
+        }
+
+        .hero-text {
+            max-width: 100%;
+            font-size: 26px;
+        }
+    }
+
 }
+
