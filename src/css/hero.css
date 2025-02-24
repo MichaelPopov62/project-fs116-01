@@ -47,10 +47,13 @@
     color: #FBFBFB;
     padding-bottom: 40px;
 }
-
-@media screen and (max-width: 350px) {
+@media only screen and (max-width:350px){
     .hero-title {
-        font-size: 42px;
+        font-size: 45px;
+    }
+    
+    .hero-text {
+        font-size: 12px;
     }
 }
 
