@@ -5,14 +5,7 @@
   padding-bottom: 80px;
 }
 
-.your-order-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .your-order-title {
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 48px;
   line-height: 1.08;
@@ -28,7 +21,6 @@
 }
 
 .your-order-text {
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.43;
@@ -38,14 +30,19 @@
   margin-bottom: 40px;
 }
 
+.your-order-form-soc-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .your-order-form-cont {
-  background: #fbfbfb;
+  background-color: #fbfbfb;
   border-radius: 30px;
   padding: 40px 20px;
 }
 
 .your-order-form-text {
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 28px;
   line-height: 1;
@@ -64,17 +61,7 @@
   color: #576f35;
 }
 
-.your-order-form {
-}
-
-.your-order-cont-name {
-}
-
-.your-order-label {
-}
-
 .your-order-form-input {
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.43;
@@ -89,6 +76,7 @@
 
 textarea.your-order-form-input {
   outline: none;
+  resize: none;
   border-radius: 15px;
   padding: 16px;
   height: 92px;
@@ -96,7 +84,6 @@ textarea.your-order-form-input {
 }
 
 .your-order-form-input::placeholder {
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.43;
@@ -116,7 +103,6 @@ textarea.your-order-form-input {
 }
 
 .your-order-form-btn {
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.11;
@@ -149,7 +135,6 @@ textarea.your-order-form-input {
 }
 
 .your-order-soc-text {
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.43;
@@ -167,11 +152,7 @@ textarea.your-order-form-input {
   gap: 8px;
 }
 
-.your-order-soc-list-item {
-}
-
 a.your-order-soc-item-link {
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.11;
@@ -181,7 +162,6 @@ a.your-order-soc-item-link {
 }
 
 .your-order-soc-list-item:not(:last-child)::after {
-  font-family: 'Inter Tight', sans-serif;
   content: '/';
   font-weight: 600;
   font-size: 18px;
@@ -192,15 +172,22 @@ a.your-order-soc-item-link {
   margin-left: 8px;
 }
 
+@media only screen and (max-width: 354px) {
+  .your-order-title {
+    font-size: 36px;
+    line-height: 1;
+  }
+
+  .your-order-form-text {
+    font-size: 24px;
+  }
+}
+
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .your-order {
     padding-top: 100px;
     padding-bottom: 100px;
-  }
-
-  .your-order-container {
-    gap: 32px;
   }
 
   .your-order-title {
@@ -218,16 +205,89 @@ a.your-order-soc-item-link {
     margin-bottom: 52px;
   }
 
+  .your-order-form-soc-cont {
+    gap: 32px;
+    padding: 0 32px;
+  }
+
   .your-order-form-cont {
     padding: 72px 100px;
   }
 
   .your-order-form-text {
     font-size: 32px;
-    margin-bottom: 40px;
+    margin-bottom: 52px;
+  }
+
+  .your-order-form-cont {
+    padding: 72px 100px;
+  }
+
+  .your-order-form-input {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 100%;
+    padding: 16px 14px;
+    margin-bottom: 16px;
+  }
+
+  textarea.your-order-form-input {
+    border-radius: 15px;
+    padding: 16px 15px;
+    height: 96px;
+    margin-bottom: 24px;
+  }
+
+  .your-order-form-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .your-order-soc-cont {
+    padding: 52px;
+  }
+
+  .your-order-image {
+    margin-bottom: 52px;
+  }
+
+  .your-order-soc-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .your-order-soc-list {
+    gap: 12px;
+  }
+
+  .your-order-soc-list-item:not(:last-child)::after {
+    margin-left: 12px;
   }
 }
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
+  .your-order-title {
+    max-width: 742px;
+  }
+
+  .your-order-text {
+    max-width: 742px;
+  }
+
+  .your-order-form-soc-cont {
+    flex-direction: row;
+    gap: 32px;
+    padding: 0;
+  }
+
+  .your-order-form-cont,
+  .your-order-soc-cont {
+    padding: 52px 48px;
+    flex-basis: calc((100% - 32px) / 2);
+  }
+
+  .your-order-image {
+    margin-bottom: 80px;
+  }
 }
