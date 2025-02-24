@@ -1,0 +1,233 @@
+/* Styles for Mobile devices */
+.your-order {
+  background: #576f35;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.your-order-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.your-order-title {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-align: left;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+.your-order-title-harvest {
+  color: #d4bfc4;
+}
+
+.your-order-text {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: left;
+  color: #fbfbfb;
+  max-width: 335px;
+  margin-bottom: 40px;
+}
+
+.your-order-form-cont {
+  background: #fbfbfb;
+  border-radius: 30px;
+  padding: 40px 20px;
+}
+
+.your-order-form-text {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-align: left;
+  color: #141414;
+  margin-bottom: 40px;
+}
+
+.form-text-span-from-us {
+  color: #7a3145;
+}
+
+.form-text-span-the-from {
+  color: #576f35;
+}
+
+.your-order-form {
+}
+
+.your-order-cont-name {
+}
+
+.your-order-label {
+}
+
+.your-order-form-input {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #141414;
+  border: 1px solid #858585;
+  border-radius: 30px;
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+textarea.your-order-form-input {
+  outline: none;
+  border-radius: 15px;
+  padding: 16px;
+  height: 92px;
+  margin-bottom: 20px;
+}
+
+.your-order-form-input::placeholder {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #141414;
+}
+
+.your-order-form-input:focus {
+  border-color: #7a3145;
+}
+
+.your-order-form-input:not(:placeholder-shown):invalid {
+  border-color: #e74a3b;
+}
+
+.your-order-form-input:not(:placeholder-shown):valid {
+  border-color: #3cbc81;
+}
+
+.your-order-form-btn {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  background-color: #7a3145;
+  border-radius: 30px;
+  width: 100%;
+  height: 52px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.your-order-form-btn:active {
+  color: #7a3145;
+  background-color: #fbfbfb;
+  border: 1px solid #858585;
+}
+
+.your-order-soc-cont {
+  border-radius: 30px;
+  padding: 40px 20px;
+  background: #7a3145;
+}
+
+.your-order-image {
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.your-order-soc-text {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: left;
+  color: #d4bfc4;
+  margin-bottom: 16px;
+}
+
+.your-order-soc-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.your-order-soc-list-item {
+}
+
+a.your-order-soc-item-link {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+.your-order-soc-list-item:not(:last-child)::after {
+  font-family: 'Inter Tight', sans-serif;
+  content: '/';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-left: 8px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .your-order {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .your-order-container {
+    gap: 32px;
+  }
+
+  .your-order-title {
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  .your-order-text {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 640px;
+    margin-bottom: 52px;
+  }
+
+  .your-order-form-cont {
+    padding: 72px 100px;
+  }
+
+  .your-order-form-text {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+}
