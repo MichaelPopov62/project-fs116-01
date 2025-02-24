@@ -33,12 +33,7 @@
 .shiping-text .red {
   color: #8a3c45; /* Червоний */
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .shiping-image {
-    width: 335px;
-    height: 225px;
-  }
-}
+
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
