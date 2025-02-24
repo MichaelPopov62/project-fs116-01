@@ -73,20 +73,20 @@
   text-transform: uppercase;
   color: white;
   text-align: center;
-  line-height: 50%;
+  text-wrap: nowrap;
 }
 .btn-shop:active {
   background-color: white;
   color: #7a3145;
 }
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+@media only screen and (min-width: 768px) {
   .overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5); /* Чорний напівпрозорий фон */
+    background: rgba(0, 0, 0, 0.5);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
