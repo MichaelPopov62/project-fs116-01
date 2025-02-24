@@ -77,5 +77,6 @@
     align-items: center;
     text-align: left;
     margin-left: 74px;
+    gap: 74;
   }
 }
