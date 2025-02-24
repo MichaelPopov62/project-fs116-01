@@ -4,6 +4,7 @@
   max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
+<<<<<<< HEAD
 
 }
 
@@ -16,10 +17,37 @@
     }
 }
 
+=======
+}
+
+/* Styles for Mobile devices-adaptive */
+@media only screen and (min-width:375px) and (max-width:768px) 
+{
+  .container { min-width: 375px;
+    max-width:768px ;
+    padding: 0 32px;
+    margin: 0 auto;
+    }
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width:768px) and (max-width:1280px)
+{
+  .container {
+    min-width: 768px;
+    max-width:768px ;
+    padding: 0 32px;
+  }
+}
+>>>>>>> d3907c501b2e15bd8695b68b6e7601520f2496c4
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
     padding: 0 100px;
+<<<<<<< HEAD
  }
+=======
+  }
+>>>>>>> d3907c501b2e15bd8695b68b6e7601520f2496c4
 }
