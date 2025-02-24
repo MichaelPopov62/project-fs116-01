@@ -38,6 +38,8 @@
   .container {
     max-width: 768px;
     padding: 0 32px;
+    grid-template-columns: 1fr;
+    text-align: center;
   }
   .shiping-text {
     font-size: 40px;
