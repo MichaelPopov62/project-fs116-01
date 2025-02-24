@@ -27,11 +27,11 @@
 }
 
 .shiping-text .green {
-  color: #6b7f3e; /* Зелений */
+  color: #6b7f3e;
 }
 
 .shiping-text .red {
-  color: #8a3c45; /* Червоний */
+  color: #8a3c45;
 }
 
 @media only screen and (min-width: 768px) {
