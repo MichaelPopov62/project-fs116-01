@@ -19,12 +19,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 60px;
   font-weight: 600;
-  font-size: 28px;
-  line-height: 28px;
-  letter-spacing: -0.015em;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
   text-align: center;
+  margin-top: 60px;
 }
 
 .shiping-text .green {
@@ -46,11 +46,18 @@
   .shiping-image {
     width: 536px;
     height: 356px;
+    margin-left: 116px;
   }
   .shiping-text {
-    font-size: 40px;
-    line-height: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02px;
+    text-align: center;
     text-transform: uppercase;
+    padding-top: 75px;
+    padding-left: 84px;
+    padding-right: 84px;
   }
 }
 
@@ -68,12 +75,12 @@
     height: 329px;
   }
   .shiping-text {
-    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    text-align: left;
-    margin-left: 74px;
-    gap: 74px;
-    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-left: 74px;
+    margin: 0 auto;
   }
 }
