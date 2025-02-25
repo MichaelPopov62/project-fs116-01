@@ -105,7 +105,7 @@
 
 .reviews-img {
   margin: 0 auto 24px;
-border-radius: 100px;
+  border-radius: 100px;
 }
 
 .reviews-name {
@@ -174,7 +174,10 @@ border-radius: 100px;
 }
 
 @media only screen and (min-width: 1280px) {
-    .reviews-items-mob{
-        display: block;
-    }
+  .reviews-items-mob {
+    display: block;
+  }
+  .reviews-list {
+    justify-content: space-evenly;
+  }
 }
