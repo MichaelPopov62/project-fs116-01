@@ -8,8 +8,15 @@
 }
 
 .header {
+    background-color: green;
     position: absolute;
         width: 100%;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    fill: white;
 }
 
 .shapka {
@@ -26,12 +33,6 @@ display: none;
 
 .grn-dots {
     margin-right: 4px;
-}
-
-.mobile-nav {
-    display: flex;
-    align-items: center;
-    fill: white;
 }
 
 .nav-stroke {
@@ -60,11 +61,6 @@ margin-left: auto;
         max-width: 1280px;
         padding: 0 100px;
     }
-
-    /* .header {
-        position: absolute;
-        width: 100%;
-    } */
 
     .nav-stroke {
         display: none;
