@@ -5,6 +5,9 @@
     margin:0 auto;
     padding:0 20px;
 }
+.footer{
+    background-color: #7a3145;
+}
 .footer-container{ 
     background-color: #7a3145;
     color:#fbfbfb;
