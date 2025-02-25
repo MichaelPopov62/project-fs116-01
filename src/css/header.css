@@ -13,11 +13,13 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transform: translateX(100%);
 }
 .is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  transform: translateX(0);
 }
 .menu-close {
   display: flex;
@@ -95,6 +97,7 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    transform: translateX(0);
   }
   .mob-menu {
     width: 351px;
