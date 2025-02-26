@@ -75,23 +75,23 @@
         font-size: 16px;
         line-height: 1.25;
         margin-bottom: 52px;
-        }
     }
-    .vegetables-item {
-        flex: 1 0 335px;
-    }
+}
+.vegetabl-item {
+        flex: 1 1 100%;
+}
 @media only screen and (min-width: 768px) {
-    .vegetables-item {
+    .vegetabl-item {
         width: calc((100% - 100px) / 2);
         flex: 1 0 340px;
-        }
+    }
 }
 
 @media only screen and (min-width: 1280px) {
-    .vegetables-item {
+    .vegetabl-item {
         width: calc((100% - 100px) / 3);
         flex: 1 0 344px;
-        }
+    }
 }
 
 .vegetables-list {
