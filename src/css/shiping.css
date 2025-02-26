@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 100px 0;
 }
 .container {
   min-width: 320px;
