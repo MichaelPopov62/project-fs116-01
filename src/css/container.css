@@ -1,49 +1,17 @@
- advertisement
-Styles for Mobile devices .container {
-.container { 
-main
+
+Styles for Mobile devices 
+.container {
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
- advertisement
-  /* background-color: blue; */
-}
-/* Styles for Mobile devices-flexible */
-@media only screen and (min-width: 320px) and (max-width: 375px) {
-  body {
-    /* background-color: rgb(43, 198, 226); */
-  }
-}
-/* Styles for Mobile devices-adaptive */
-@media only screen and (min-width: 375px) and (max-width: 768px) {
-  .container {
-    min-width: 375px;
-    max-width: 768px;
-    padding: 0 32px;
-    margin: 0 auto;
-    /* background-color: brown; */
-  }
-
-
- main
-}
+ }
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
-
-    min-width: 768px;
- advertisement
-    max-width: 1280px;
+    max-width: 768px;
     padding: 0 32px;
-    margin: 0 auto;
-    /* background-color: chartreuse; */
-
-    max-width:768px ;
-    padding: 0 32px;
-
- main
   }
 }
 
@@ -51,13 +19,10 @@ main
 @media only screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-< advertisement
     padding: 0 100px;
-    margin: 0 auto;
-    /* background-color: blueviolet; */
   }
 }
-=======
-    padding: 0 100px;}}
+
+
     
- main
+
