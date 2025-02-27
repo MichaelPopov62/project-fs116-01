@@ -1,4 +1,5 @@
 :root {
+
   /* font-family: Robotto Semibold,Robotto Medium,Robotto Bold; second:Inter Tight Medium, Inter tight Semibold,Inter Tight Bolt,sans-serif; */
   font-family: 'Inter Tight', sans-serif;
  
@@ -10,6 +11,7 @@
   background-color: #fafafa;
   color: #2a2a2a;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -18,9 +20,11 @@ body {
   margin: 0;
   scroll-behavior: smooth;
 }
+
 main {
   flex-grow: 1;
 }
+
 main {
   text-align: center;
 }
