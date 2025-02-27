@@ -1,3 +1,6 @@
+
+
+
 /* MOB */
 
 .hero {
@@ -101,7 +104,7 @@
 /* DESKTOP */
 
 @media only screen and (min-width: 1280px) {
-    .container {
+    .container.hero-container {
         padding-left: 100px;
         padding-right: 38px;
         width: 50%;
@@ -154,5 +157,4 @@
         }
     }
 
-}
 
