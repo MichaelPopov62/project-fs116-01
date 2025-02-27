@@ -34,7 +34,7 @@
 }
 
 .process-title {
-    font-size: 24px;
+    font-size: 28px;
     color: #fbfbfb;
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -55,6 +55,7 @@
 .process-list {
     list-style: none;
     padding: 0;
+    counter-reset: step-counter;
 }
 
 .process-item {
@@ -64,6 +65,7 @@
     margin-bottom: 10px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .step-number {
@@ -77,7 +79,12 @@
     border-radius: 50%;
     
 }
-
+.step-number::before {
+    counter-increment: step-counter;
+    content: counter(step-counter);
+    font-size: 16px;
+    font-weight: bold;
+}
 .process-desc {
     font-size: 14px;
     color: #858585;
@@ -94,7 +101,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateX(10px);
+    transform: translateX(5px);
 }
 .fat {
     font-weight: 700;
