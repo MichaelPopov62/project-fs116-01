@@ -39,6 +39,7 @@
     text-transform: uppercase;
     margin-bottom: 15px;
     text-align: left;
+    padding-right: 20px;
 }
 
 .highlight {
@@ -66,6 +67,8 @@
     display: flex;
     align-items: center;
     position: relative;
+    height: 84px;
+    width: 335px;
 }
 
 .step-number {
@@ -76,20 +79,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
-    
+    border-radius: 100%;
+    font-size: 1.5rem;
+
 }
 .step-number::before {
     counter-increment: step-counter;
     content: counter(step-counter);
-    font-size: 16px;
-    font-weight: bold;
 }
 .process-desc {
     font-size: 14px;
     color: #858585;
     text-align: left;
     margin-left: 24px;
+    padding-left: 50px;
 
 }
 .process-step{
@@ -101,7 +104,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateX(5px);
+    transform: translateX(0px);
+    position: absolute;
 }
 .fat {
     font-weight: 700;
@@ -135,8 +139,9 @@
         padding: 12px 25px 12px 24px;
         width: 440px;
         height: 76px;
+        margin-bottom: 24px;
 }
-    .process-content {
+ .process-content {
         display: flex;
             flex-direction: column;
             align-items: center;
@@ -144,16 +149,17 @@
     }
 
     .process-title {
-        font-size: 32px;
+        font-size: 30px;
         max-width: 440px;
-        margin-bottom: 25px
+        margin-bottom: 25px;
+        height: auto;
     }
 
     .process-text {
         font-size: 16px;
         line-height: 1.25;
         max-width: 440px;
-        margin-bottom: 50px
+        margin-bottom: 52px
     }
     .process-desc{
         font-size: 16px;
@@ -166,7 +172,7 @@
 
 @media screen and (min-width: 1280px) {
     .how-it-works {
-        padding: 0;
+       
 background: linear-gradient(to right, #7a3145 50%, #576f35 50%);
     }
 
@@ -174,30 +180,51 @@ background: linear-gradient(to right, #7a3145 50%, #576f35 50%);
         display: flex;
         justify-content: center;
     }
-
+.process-titl {
+font-size: 32px;
+ width: 440px;
+ margin-bottom: 24px;
+font-weight: 600;
+line-height: 1;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+}
     .details-section {
-        padding: 100px;
         display: flex;
         justify-content: end;
         width: 630px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 100px;
+        padding-bottom: 160px;
     }
 
     .process-intro {
         padding-right: 100px;
         padding-left: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
         display: flex;
         justify-content: start;
         width: 630px;
     }
 
     .img-area {
-        max-width: 430px;
+        max-width: 440px;
         margin-left: auto;
-        margin-right: 0
+        margin-right: 0;
+        
+        
+    }
+    .img-display {
+    border-radius: 30px;
+        width: 100%;
     }
 
     .process-third {
         margin-right: 20px
     }
-    
+    .process-text {
+        margin-bottom: 104px;
+    }
 }
