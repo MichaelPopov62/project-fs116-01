@@ -17,15 +17,31 @@
 .shiping-text {
   font-family: Roboto, Inter Tight, sans-serif;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.05em;
-  text-align: center;
-  margin-top: 60px;
+  text-align: center; */
+  /* margin-top: 60px; */
+margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02px;
+    letter-spacing: 0.05px;
+    text-align: center;
+
+
+    text-transform: uppercase;
+    padding-top: 75px;
+    padding-left: 84px;
+    padding-right: 84px;
+    margin-top: 75px;
+    margin-right: 116px;
+    margin-left: 116px;
+    margin-bottom: 100px;
 }
 
 .shiping-text .green {
