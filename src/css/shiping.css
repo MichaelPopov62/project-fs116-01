@@ -1,5 +1,5 @@
 .shiping {
-  display: flex;
+ 
   align-items: center;
   justify-content: space-between;
   padding: 100px 0;
@@ -40,9 +40,9 @@
   .container {
     max-width: 768px;
     padding: 0 32px;
-    grid-template-columns: 1fr;
+ 
     text-align: center;
-    display: grid;
+   
   }
   .shiping-image {
     width: 536px;
@@ -66,8 +66,6 @@
   .container {
     max-width: 1280px;
     padding: 0 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     align-items: center;
     width: 100%;
   }
