@@ -1,29 +1,18 @@
 .shiping {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 100px 0;
 }
 
 .shiping-image {
   max-width: 100%;
   height: auto;
+  margin-bottom: 60px;
 }
 .shiping-text {
-  font-family: Roboto, Inter Tight, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-weight: 600;
-  font-size: 11px;
-  line-height: 1.2;
-  letter-spacing: 0.05em;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -1.5%;
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 80px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .shiping-text .green {
@@ -39,33 +28,29 @@
     text-align: center;
   }
   .shiping-image {
-    margin-left: 116px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 74px;
   }
   .shiping-text {
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.05px;
+    font-size: 40px;
     text-align: center;
-    margin-top: 75px;
-    margin-right: 116px;
-    margin-left: 116px;
-    margin-bottom: 100px;
+    width: 536px;
+    margin: 0 auto;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .shiping-conteiner {
+    display: flex;
+    gap: 74px;
     align-items: center;
   }
   .shiping-image {
+    margin-bottom: 0;
   }
   .shiping-text {
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
     text-align: left;
-    margin-top: 84px;
-    margin-bottom: 84px;
     justify-content: flex-start;
     align-items: center;
   }
