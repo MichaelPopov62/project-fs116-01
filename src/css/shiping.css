@@ -4,12 +4,7 @@
   justify-content: space-between;
   padding: 100px 0;
 }
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+
 .shiping-image {
   max-width: 100%;
   height: auto;
@@ -40,15 +35,10 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-
+  .shiping-conteiner {
     text-align: center;
   }
   .shiping-image {
-    width: 536px;
-    height: 356px;
     margin-left: 116px;
   }
   .shiping-text {
@@ -64,17 +54,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 100px;
-    display: flex;
-
+  .shiping-conteiner {
     align-items: center;
   }
   .shiping-image {
-    width: 500px;
-    height: 329px;
-    width: 100%;
   }
   .shiping-text {
     font-size: 16px;
