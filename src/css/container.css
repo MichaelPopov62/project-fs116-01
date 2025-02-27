@@ -12,6 +12,13 @@
   max-width:768px ;
   padding: 0 32px;
 }
+
+    min-width: 768px;
+    max-width:768px ;
+    padding: 0 32px;
+
+  }
+
 }
 
 /* Styles for Desktop devices */
