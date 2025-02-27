@@ -6,7 +6,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         color: #fbfbfb;
-        text-align: center;
+       
     }
     .logo-icon{
         fill:#fbfbfb;
@@ -19,6 +19,7 @@
     flex-direction: column;
     gap: 24px;
     margin:0 auto 0 0;
+   
     }
     .footer-nav-cont{
         display: flex;
