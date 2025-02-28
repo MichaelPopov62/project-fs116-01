@@ -1,1 +1,57 @@
+shiping {
+  padding: 100px 0;
+}
 
+.shiping-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+}
+.shiping-text {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -1.5%;
+  text-align: center;
+}
+
+.shiping-text .green {
+  color: #6b7f3e;
+}
+
+.shiping-text .red {
+  color: #8a3c45;
+}
+
+@media only screen and (min-width: 768px) {
+  .shiping-conteiner {
+    text-align: center;
+  }
+  .shiping-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 74px;
+  }
+  .shiping-text {
+    font-size: 40px;
+    text-align: center;
+    width: 536px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .shiping-conteiner {
+    display: flex;
+    gap: 74px;
+    align-items: center;
+  }
+  .shiping-image {
+    margin-bottom: 0;
+  }
+  .shiping-text {
+    text-align: left;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
