@@ -97,7 +97,7 @@ git pull
   color: #7a3145;
 }
 @media only screen and (min-width: 768px) {
-  .is-open {
+  /* .is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -105,7 +105,7 @@ git pull
   .mob-menu {
     visibility: visible;
     opacity: 1;
-  }
+  } */
   .overlay {
     position: fixed;
     top: 0;
