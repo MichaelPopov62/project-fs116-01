@@ -1,5 +1,8 @@
 
+
+
 /* MOB */
+
 .hero {
     padding-top: 100px;
     background-color: #576F35;
@@ -105,7 +108,7 @@
         padding-left: 100px;
         padding-right: 38px;
         width: 50%;
-    }
+    }}
 
     .hero {
         height: 796px;
@@ -154,6 +157,4 @@
         }
     }
 
-} 
 
- 

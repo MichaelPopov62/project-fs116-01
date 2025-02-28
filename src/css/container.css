@@ -9,9 +9,15 @@
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
+
   max-width:768px ;
   padding: 0 32px;
 }
+
+    min-width: 768px;
+    max-width: 768px;
+    padding: 0 32px;
+
 
   }
 
@@ -28,4 +34,11 @@
     
  
     
+    max-width: 1280px;
+    padding: 0 100px;
+  }
+
+}
+
+
 
