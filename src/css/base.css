@@ -1,6 +1,7 @@
 :root {
- 
+
   font-family: "Inter Tight", sans-serif;
+
 
   font-size: 16px;
   line-height: 1.5;
@@ -8,6 +9,7 @@
   background-color: #fafafa;
   color: #2a2a2a;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -16,9 +18,11 @@ body {
   margin: 0;
   scroll-behavior: smooth;
 }
+
 main {
   flex-grow: 1;
 }
+
 main {
   text-align: center;
 }
