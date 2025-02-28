@@ -1,8 +1,4 @@
-
-
-
-/* MOB */
-
+/* MOBILE */
 .hero {
     padding-top: 100px;
     background-color: #576F35;
@@ -10,7 +6,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* position: relative; */
 }
 
 .hero-title {
@@ -45,7 +40,7 @@
 }
 
 @media only screen and (min-resolution: 2x),
-(-webkit-min-device-pixel-atio: 2x) {
+(-webkit-min-device-pixel-ratio: 2x) {
     .hero-image {
         background-image: url("/img/images/backet/backet-mobi@2x.jpg");
     }
@@ -68,10 +63,12 @@
 }
 
 /* TABLET */
-
 @media only screen and (min-width: 768px) {
     .hero {
         padding-top: 120px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .hero-title {
@@ -85,16 +82,15 @@
         line-height: 1.25;
     }
 
-    @media only screen and (min-width: 768px) {
-        .hero-image {
-            background-image: url("/img/images/backet/backet-tabl@1x.jpg");
-            width: 768px;
-            min-height: 536px;
-        }
+    .hero-image {
+        background-image: url("/img/images/backet/backet-tabl@1x.jpg");
+        width: 100%;
+        min-height: 536px;
+        max-width: 768px;
     }
 
     @media only screen and (min-resolution: 2x),
-    (-webkit-min-device-pixel-atio: 2x) {
+    (-webkit-min-device-pixel-ratio: 2x) {
         .hero-image {
             background-image: url("/img/images/backet/backet-tabl@2x.jpg");
         }
@@ -102,13 +98,12 @@
 }
 
 /* DESKTOP */
-
 @media only screen and (min-width: 1280px) {
     .container.hero-container {
         padding-left: 100px;
         padding-right: 38px;
         width: 50%;
-    }}
+    }
 
     .hero {
         height: 796px;
@@ -137,24 +132,12 @@
     }
 
     @media only screen and (min-resolution: 2x),
-    (-webkit-min-device-pixel-atio: 2x) {
+    (-webkit-min-device-pixel-ratio: 2x) {
         .hero-image {
             background-image: url("/img/images/backet/backet-des@2x.jpg");
         }
     }
+}
 
-    @media only screen and (min-width:1500px) {
-        .hero-title {
-            max-width: 100%;
-            font-size: 76px;
-            padding-top: 200px;
-            margin-bottom: 80px;
-        }
-
-        .hero-text {
-            max-width: 100%;
-            font-size: 26px;
-        }
-    }
 
 
