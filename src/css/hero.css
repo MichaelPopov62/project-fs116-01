@@ -131,13 +131,9 @@
         background-size: contain;
     }
 
-    @media only screen and (min-resolution: 2x),
-    (-webkit-min-device-pixel-ratio: 2x) {
-        .hero-image {
-            background-image: url("/img/images/backet/backet-des@2x.jpg");
-        }
-    }
+  
 }
+
 
 
 
