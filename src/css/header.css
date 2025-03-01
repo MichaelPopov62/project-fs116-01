@@ -36,7 +36,8 @@
 
 
 @media only screen and (min-width:768px) {
-    .mobile-nav {
+    
+  .mobile-nav {
         padding-top: 32px;
     }
 
@@ -178,25 +179,32 @@
     width: 417px;
     height: 100vh;
     background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
+   
+    z-index: 10;
     opacity: 0;
+    opacity: hidden;
     pointer-events: none;
     transition: opacity 250ms ease-in-out, visibility 250ms
       ease-in-out;
   }
 
   .mob-menu {
+    position:fixed ;
     width: 375px;
-    height: 80%;
+    height: 100%;
+    top: 0;
+    right: -50%;
+    z-index: 20;
     background-color: #576F35;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 52px;
   
+}
+@media only screen and (min-width: 768px) {
+  .mob-menu { width: 375px;
+    }
 }
 .overlay.is-open {
     opacity: 1;
