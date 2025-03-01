@@ -130,6 +130,10 @@ color: #fbfbfb;;
 .footer-logo-cont{
     max-width:265px;
     gap:24px;
+     display:flex;
+    flex-direction: column;
+    max-width:265px;
+    
 }
 .footer-text{
     font-weight: 500;
