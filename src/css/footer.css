@@ -64,25 +64,39 @@ letter-spacing: -0.01em;
 text-transform: uppercase;
 }
 
-.contacts{
+.address{
     max-width:215px;
+    text-align: left;
 }
-.address-list{
+/* .address-list{
 display: flex;
 flex-direction: column;
 gap: 14px;
 text-align: left;
 
-}
-.address-item{
+} */
+.address-tel{
     font-weight: 700;
 font-size: 14px;
 line-height: 1.4;
+margin-bottom: 14px;
+color:  #fbfbfb;;
+
+}
+.address-post{
+max-width: 179px;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.4;
+color: #fbfbfb;;
 
 }
 .privacy-policy-cont{
     max-width:335px;
     display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .privacy-policy-list{
     display:flex;
