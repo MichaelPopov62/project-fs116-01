@@ -1,7 +1,7 @@
 /*FOOTER*/
     .footer-container {
         background: #7a3145;
-        padding: 52px 100px;
+       
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
