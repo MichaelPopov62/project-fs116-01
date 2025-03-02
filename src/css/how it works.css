@@ -93,8 +93,10 @@
     font-size: 14px;
     color: #858585;
     text-align: left;
-    padding-left: 76px;
-    padding-left: 27px;
+    padding-left: 60px;
+   
+    padding-top: 12px;
+    padding-bottom: 12px;
 
 }
 .process-step{
