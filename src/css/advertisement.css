@@ -4,16 +4,16 @@
   margin: 0 auto;
 } */
 
-.discount-section {
+/* .discount-section {
   background-color: #fbfbfb;
   align-items: center;
   margin: 0 auto;
   padding: 80px 20px;
-}
+} */
 
-.advh2 {
-  /* display: none; */
-}
+/* .advh2 {
+  display: none; 
+} */
 
 .advertisement-text {
   color: #141414;
@@ -41,9 +41,9 @@
 
 /*******---------- tablet -----------********/
 @media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
+  /* .container { 
+     max-width: 768px; 
+  } */
 
   .discount-section {
     max-width: 768px;
@@ -54,7 +54,7 @@
     max-width: 675px;
     font-size: 64px;
     padding: 20px 0 0 0;
-    margin: 0 -48px 0 -16px;
+    margin: 0 48px 0 16px;
     line-height: 1.05;
   }
 
@@ -66,14 +66,14 @@
 }
 /*******---------- desktop -----------********/
 @media only screen and (min-width: 1280px) {
-  .container {
+  /* .container {
     max-width: 1280px;
-  }
-
+  } */
+/* 
   .discount-section {
     max-width: 1280px;
     padding: 100px 0px;
-  }
+  } */
 
   .advertisement-text {
     max-width: 1054px;
@@ -91,6 +91,6 @@
     font-size: 76px;
     line-height: 1;
     display: inline;
-    margin: 0 6px 0 -13px;
+    margin: 0 6px 0 13px;
   }
 }
