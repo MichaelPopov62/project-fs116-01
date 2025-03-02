@@ -1,8 +1,8 @@
-.container {
+/* .container {
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
-}
+} */
 
 .discount-section {
   background-color: #fbfbfb;
@@ -12,7 +12,7 @@
 }
 
 .advh2 {
-  display: none;
+  /* display: none; */
 }
 
 .advertisement-text {
@@ -47,7 +47,7 @@
 
   .discount-section {
     max-width: 768px;
-    padding: 100px 32px;
+    /* padding: 100px 32px; */
   }
 
   .text-span {
