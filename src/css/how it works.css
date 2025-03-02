@@ -68,10 +68,11 @@
     align-items: center;
     position: relative;
     height: 84px;
-    width: 335px;
+    max-width: 335px;
 }
 
 .step-number {
+    position: absolute;
     width: 40px;
     height: 40px;
     background: #7a3145;
@@ -84,6 +85,7 @@
 
 }
 .step-number::before {
+
     counter-increment: step-counter;
     content: counter(step-counter);
 }
@@ -91,8 +93,8 @@
     font-size: 14px;
     color: #858585;
     text-align: left;
-    margin-left: 24px;
-    padding-left: 50px;
+    margin-left: 76px;
+    padding-left: 27px;
 
 }
 .process-step{
