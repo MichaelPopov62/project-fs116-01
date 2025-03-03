@@ -125,8 +125,8 @@ color: #fbfbfb;;
     flex-wrap: wrap;
   }
   .footer-wrap{
-    /* flex-direction: row; */
-    /* gap:212px   */
+    flex-direction: row;
+    gap:212px  
 }
 .inner{
     display: flex;
@@ -150,20 +150,29 @@ color: #fbfbfb;;
 .footer-nav-list{
     gap:24px; 
 }
-.address-list{
+.address-tel{
+    
+    font-size: 16px;
+    line-height: 1.3;
     gap:24px;
 }
-.address-item{
-font-size: 16px;
-line-height: 1.25;
+.address-post{
+  
+    font-size: 16px;
+    line-height: 1.3;
+   
 }
 .privacy-policy-cont{
     max-width:704px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-.privacy-policy-list{
+/* .privacy-policy-list{
     flex-direction: row;
     gap:318px;
-}
+} */
 .privacy-policy-text{
     font-size: 16px;
     line-height: 1.25; 
