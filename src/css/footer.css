@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
+    padding-top: 40px;
 }
 
 .logo-icon{
@@ -118,14 +119,17 @@ color: #fbfbfb;;
     } */
   .footer-container {
     max-width: 768px;
-    padding: 32px;
+    /* padding: 32px; */
     /* flex-direction:row; */
-    gap:100px;
+    /* gap:100px; */
     flex-wrap: wrap;
   }
   .footer-wrap{
     /* flex-direction: row; */
-    gap:212px  
+    /* gap:212px   */
+}
+.inner{
+    display: flex;
 }
 .footer-logo-cont{
     max-width:265px;
