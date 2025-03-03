@@ -7,11 +7,13 @@
 } */
 .footer{
     background-color: #7a3145;
+    margin-bottom: 52px;
 }
 .footer-container{ 
     background-color: #7a3145;
     color:#fbfbfb;
-    /* padding: 40px 20px; */
+    padding-top: 40px;
+    padding-bottom: 43px;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -98,6 +100,7 @@ color: #fbfbfb;;
     gap: 16px;
     flex-direction: column;
     align-items: flex-start;
+   
 }
 .privacy-policy-list{
     display:flex;
@@ -119,7 +122,8 @@ color: #fbfbfb;;
     } */
   .footer-container {
     max-width: 768px;
-    /* padding: 32px; */
+    padding-top: 32px;
+    padding-bottom: 32px;
     /* flex-direction:row; */
     /* gap:100px; */
     flex-wrap: wrap;
@@ -179,13 +183,14 @@ color: #fbfbfb;;
 }
 }
 @media only screen and (min-width:1280px){
-.container{
+/* .container{
          max-width:1280px;
         padding: 0 100px;
-} 
+}  */
 .footer-container{
         max-width:1280px;
-        padding: 52px 100px;
+        padding-top: 52px;
+        padding-bottom: 52px;
         flex-wrap: wrap;
 }
 .footer-wrap{
@@ -198,7 +203,10 @@ color: #fbfbfb;;
 .footer-nav-wrap{
     width:565px;
     flex-direction: row;
+    justify-content: space-between;
     gap:121px;
+    
+
 }
 .footer-nav{
     width:228px;
@@ -208,6 +216,7 @@ color: #fbfbfb;;
 }
 .privacy-policy-cont{
     max-width:1080px;
+   
     
 }
 .privacy-policy-list{

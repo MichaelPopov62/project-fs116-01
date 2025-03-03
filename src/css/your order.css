@@ -207,7 +207,7 @@ a.your-order-soc-item-link {
 
   .your-order-form-soc-cont {
     gap: 32px;
-    padding: 0 32px;
+    /* padding: 0 32px; */
   }
 
   .your-order-form-cont {

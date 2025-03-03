@@ -153,10 +153,10 @@
 .process-item{
     border-radius: 15px;
         padding: 12px 25px 12px 24px;
-        width: 440px;
+      
         height: 76px;
         margin-bottom: 24px;
-        min-width: 326px;
+        min-width: 440px;
 }
  .process-content {
         display: flex;
