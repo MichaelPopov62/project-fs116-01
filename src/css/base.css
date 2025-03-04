@@ -13,11 +13,12 @@
 body {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
+  width: 100%;
   min-height: 100vh;
+  padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  align-items: center;
+
 }
 
 main {

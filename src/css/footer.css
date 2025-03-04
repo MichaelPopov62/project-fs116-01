@@ -6,11 +6,12 @@
     padding:0 20px;
 } */
 .footer{
+    width: 100vw;
     background-color: #7a3145;
     margin-bottom: 52px;
 }
 .footer-container{ 
-    background-color: #7a3145;
+    /* background-color: #7a3145; */
     color:#fbfbfb;
     padding-top: 40px;
     padding-bottom: 43px;
