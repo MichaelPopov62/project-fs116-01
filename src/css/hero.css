@@ -1,143 +1,151 @@
 /* MOBILE */
 .hero {
-    padding-top: 100px;
-    background-color: #576F35;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  background-color: #576f35;
+  padding-top: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  padding: 0 20px;
 }
 
 .hero-title {
-    max-width: 335px;
-    text-align: start;
-    font-weight: 600;
-    font-size: 52px;
-    line-height: 1;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #FBFBFB;
-    margin-bottom: 20px;
+  max-width: 335px;
+  text-align: start;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
 }
 
 .hero-text {
-    max-width: 335px;
-    text-align: start;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.43;
-    color: #FBFBFB;
-    padding-bottom: 40px;
+  max-width: 335px;
+  text-align: start;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #fbfbfb;
+  padding-bottom: 40px;
 }
 
 .hero-image {
-    background-image: url("/img/images/backet/backet-mobi@1x.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 375px;
-    min-height: 372px;
+  background-image: url('/img/images/backet/backet-mobi@1x.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 375px;
+  width: 100%;
+  min-height: 372px;
 }
 
 @media only screen and (min-resolution: 2x),
-(-webkit-min-device-pixel-ratio: 2x) {
-    .hero-image {
-        background-image: url("/img/images/backet/backet-mobi@2x.jpg");
-    }
+  (-webkit-min-device-pixel-ratio: 2x) {
+  .hero-image {
+    background-image: url('/img/images/backet/backet-mobi@2x.jpg');
+  }
 }
 
-@media only screen and (max-width:375px) {
-    .hero-image {
-        width: 100%;
-    }
+@media only screen and (max-width: 375px) {
+  .hero-image {
+    width: 100%;
+  }
 }
 
-@media only screen and (max-width:350px) {
-    .hero-title {
-        font-size: 45px;
-    }
+@media only screen and (max-width: 350px) {
+  .hero-title {
+    font-size: 45px;
+  }
 
-    .hero-text {
-        font-size: 12px;
-    }
+  .hero-text {
+    font-size: 12px;
+  }
 }
 
 /* TABLET */
 @media only screen and (min-width: 768px) {
-    .hero {
-        padding-top: 120px;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  .hero {
+    padding-top: 120px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    .hero-title {
-        max-width: 704px;
-        font-size: 76px;
-    }
+  .hero-content {
+  padding: 0 32px;
+}
 
-    .hero-text {
-        max-width: 603px;
-        font-size: 16px;
-        line-height: 1.25;
-    }
+  .hero-title {
+    max-width: 704px;
+    font-size: 76px;
+    margin-bottom: 24px;
+  }
 
-    .hero-image {
-        background-image: url("/img/images/backet/backet-tabl@1x.jpg");
-        width: 100%;
-        min-height: 536px;
-        max-width: 768px;
-    }
+  .hero-text {
+    max-width: 603px;
+    font-size: 16px;
+    line-height: 1.25;
+    padding-bottom: 52px;
+  }
 
-    @media only screen and (min-resolution: 2x),
+  .hero-image {
+    background-image: url('/img/images/backet/backet-tabl@1x.jpg');
+    width: 100%;
+    min-height: 536px;
+    max-width: 768px;
+  }
+
+  @media only screen and (min-resolution: 2x),
     (-webkit-min-device-pixel-ratio: 2x) {
-        .hero-image {
-            background-image: url("/img/images/backet/backet-tabl@2x.jpg");
-        }
+    .hero-image {
+      background-image: url('/img/images/backet/backet-tabl@2x.jpg');
     }
+  }
 }
 
 /* DESKTOP */
 @media only screen and (min-width: 1280px) {
-    .container.hero-container {
-        padding-left: 100px;
-        padding-right: 38px;
-        width: 50%;
-    }
+  .hero {
+    height: 796px;
+    padding-top: 0;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
 
-    .hero {
-        height: 796px;
-        padding-top: 0;
-        flex-direction: row;
-        justify-content: space-between;
-        text-align: left;
-    }
+    .hero-content {
+    padding-left: 100px;
+    width: 640px;
+  }
 
-    .hero-title {
-        max-width: 502px;
-        padding-top: 232px;
-        margin-bottom: 128px;
-    }
+  .hero-title {
+    max-width: 502px;
+    padding-top: 232px;
+    margin-bottom: 128px;
+  }
 
-    .hero-text {
-        max-width: 472px;
-        padding-bottom: 52px;
-    }
+  .hero-text {
+    max-width: 472px;
+    padding-bottom: 52px;
+  }
 
-    .hero-image {
-        background-image: url("/img/images/backet/backet-des@1x.jpg");
-        width: 50%;
-        min-height: 796px;
-        background-size: contain;
-    }
+  .hero-image {
+    background-image: url('/img/images/backet/backet-des@1x.jpg');
+    width: 640px;
+    min-height: 796px;
+    background-size: contain;
+  }
 
-    @media only screen and (min-resolution: 2x),
+  @media only screen and (min-resolution: 2x),
     (-webkit-min-device-pixel-ratio: 2x) {
-        .hero-image {
-            background-image: url("/img/images/backet/backet-des@2x.jpg");
-        }
+    .hero-image {
+      background-image: url('/img/images/backet/backet-des@2x.jpg');
     }
+  }
 }
-
-
-
